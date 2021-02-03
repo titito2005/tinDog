@@ -125,3 +125,43 @@ p {
 .col-pricing{
 padding: 4% 2%;
 }
+/*CTA*/
+
+#cta{
+  background-color: #FF4C68;
+  text-align: center;
+  color: #FFFFFF;
+  padding: 7% 15%;
+
+}
+
+.cta-heading{
+  font-family: 'Roboto', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+/* FOOTER */
+#footer{
+padding: 7% 15%;
+text-align: center;
+}
+
+.social-icon{
+  margin: 20px 7px;
+}
+
+/*MEDIA*/
+
+@media (max-width: 950px){
+
+    #title{
+      text-align: center;
+    }
+    
+   .title-Image{
+     position: static;
+     width: 50%;
+     transform: rotate(0);    
+   }
+}
